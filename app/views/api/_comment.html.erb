@@ -2,16 +2,16 @@
 	<div class="juvia-metadata">
 		<% if comment.author_email %>
 			<div class="juvia-avatar">
-				<img src="//www.gravatar.com/avatar/<%= comment.author_email_md5 %>?s=64"
-				width="64"
-				height="64"
+				<img src="//www.gravatar.com/avatar/<%= comment.author_email_md5 %>?s=40"
+				width="40"
+				height="40"
 				alt="<%= comment.author_name || 'Anonymous' %>">
 			</div>
 		<% else %>
 			<div class="juvia-avatar">
-				<img src="http://www.gravatar.com/avatar/generic?s=64"
-				width="64"
-				height="64"
+				<img src="http://www.gravatar.com/avatar/generic?s=40"
+				width="40"
+				height="40"
 				alt="<%= comment.author_name || 'Anonymous' %>">
 			</div>
 		<% end %>
@@ -19,7 +19,7 @@
 			<%= comment.author_name || 'Anonymous' %>
 		</div>
 		<div class="juvia-creation-date">
-			<%= comment.created_at.strftime("%B %d %Y, %H:%M") %>
+			<%= comment.created_at.strftime("%-d %b %Y, %H:%M") %>
 		</div>
 		<div class="juvia-end"></div>
 	</div>
