@@ -16,4 +16,4 @@ test:
 production:
   base_url: http://juvia.yoursite.com
   from: erik@mulle-kybernetik.com
-  email_method: sendmail
+  email_method: smtp
