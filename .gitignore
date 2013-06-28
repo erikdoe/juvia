@@ -1,6 +1,6 @@
 .bundle
 .DS_Store
-config/*.yml
+#config/*.yml
 db/*.sqlite3*
 log/*.log
 tmp/restart.txt
