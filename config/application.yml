@@ -10,7 +10,7 @@ development:
 
 test:
   base_url: http://juvia.yoursite.com
-  from: juvia@yoursite.com
+  from: erik@mulle-kybernetik.com
   email_method: test
 
 production:
