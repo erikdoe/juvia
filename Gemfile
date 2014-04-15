@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '1.9.3'
+ruby '2.0.0'
 
 gem 'rails', '3.1.10'
 
@@ -40,7 +40,7 @@ end
 group :development, :test do
   gem 'rspec-rails', '~> 2.4'
   gem 'capybara', :require => false
-#  gem 'capybara-webkit', :require => false
+  gem 'capybara-webkit', :require => false
   gem 'database_cleaner', :require => false
   gem 'factory_girl_rails', :require => false
   gem 'launchy', :require => false
